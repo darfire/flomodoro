@@ -378,6 +378,8 @@ impl ConfigWindow {
 
         project.set_value("The Big One");
 
+        project.set_mark(0).unwrap();
+
         let mut task = make_multiline_input("Task");
 
         task.set_value("Piece of cake");
